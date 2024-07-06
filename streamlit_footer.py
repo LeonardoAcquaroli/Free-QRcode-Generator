@@ -1,6 +1,3 @@
-Yes, you can directly apply the size attributes closer to the `<img>` tag itself within the HTML string by using inline styles. However, since the `image_width` and `image_height` are dynamic and passed as parameters to the class constructor, you'll need to format them into a string that represents valid inline CSS for the `<img>` tag. Here's how you can do it:
-
-```python
 import streamlit as st
 
 class PersonalFooter:

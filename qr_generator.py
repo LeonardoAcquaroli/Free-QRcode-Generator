@@ -76,5 +76,4 @@ if st.download_button(label=language_text[language]['download'],
     else:
         st.error(language_text[language]['url_error'])
 
-
 PersonalFooter()
