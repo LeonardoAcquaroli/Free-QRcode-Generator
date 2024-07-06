@@ -1,6 +1,7 @@
 import qrcode
 import io
 import streamlit as st
+from streamlit_footer import PersonalFooter
 
 st.title("QR Code Generator")
 
@@ -76,30 +77,4 @@ if st.download_button(label=language_text[language]['download'],
         st.error(language_text[language]['url_error'])
 
 
-# About me
-st.markdown('<hr>', unsafe_allow_html=True) # Divider line
-
-st.html("""
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer Example</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Footer Section -->
-    <footer>
-        <div class="footer-content">
-            <p>Brought to you by Leonardo Acquaroli</p>
-            <img src="Leo_wood-circlecrop.png" alt="Leonardo Acquaroli" class="footer-photo">
-            <div class="footer-info">
-                <a href="https://www.linkedin.com/in/leonardo-acquaroli/" target="_blank">LinkedIn</a>
-                <a href="https://github.com/LeonardoAcquaroli" target="_blank">GitHub</a>
-            </div>
-        </div>
-    </footer>   
-</body>
-</html>
-""")
+PersonalFooter()
