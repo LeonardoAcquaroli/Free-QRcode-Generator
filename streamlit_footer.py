@@ -28,7 +28,7 @@ class PersonalFooter:
             <!-- Footer Section -->
             <footer>
                 <div class="footer-content">
-                    <p>Brought to you by {author}</p>
+                    <p>Brought to you by <strong>{author}</strong></p>
                     <img src="{image_url}" alt="Leonardo Acquaroli" style="width: {image_width}px; height: {image_height}px;" class="footer-photo">
                     <div class="footer-info">
                         <a href="{linkedin_url}" target="_blank">LinkedIn</a>
