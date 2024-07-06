@@ -87,15 +87,14 @@ st.html("""
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Your main content goes here -->
-
     <!-- Footer Section -->
     <footer>
         <div class="footer-content">
-            <img src="your-photo.jpg" alt="Your Photo" class="footer-photo">
+            <h2>Brought to you by Leonardo Acquaroli</h2>
+            <img src="Leo_wood-circlecrop.png" alt="Leonardo Acquaroli" class="footer-photo">
             <div class="footer-info">
-                <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/leonardo-acquaroli/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/LeonardoAcquaroli" target="_blank">GitHub</a>
             </div>
         </div>
     </footer>
