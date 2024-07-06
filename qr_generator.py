@@ -74,3 +74,31 @@ if st.download_button(label=language_text[language]['download'],
         st.success(language_text[language]['complete'])
     else:
         st.error(language_text[language]['url_error'])
+
+
+# About me
+st.markdown("""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Your main content goes here -->
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <img src="your-photo.jpg" alt="Your Photo" class="footer-photo">
+            <div class="footer-info">
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+""")
