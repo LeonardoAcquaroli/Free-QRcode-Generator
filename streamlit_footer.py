@@ -8,7 +8,7 @@ class PersonalFooter:
                  linkedin_url='https://www.linkedin.com/in/leonardo-acquaroli/',
                  github_url='https://github.com/LeonardoAcquaroli',
                  image_width=70, 
-                 image_height=70 
+                 image_height=70
                  ):
         
         # Divider line
@@ -16,6 +16,9 @@ class PersonalFooter:
             st.markdown('<hr>', unsafe_allow_html=True)
         
         # Adjusted footer content with streamlit elements
-        st.markdown(f"Brought to you by **{author}**")
-        st.image(image_url, width=image_width, caption="Leonardo Acquaroli")
-        st.markdown(f"[LinkedIn]({linkedin_url}) | [GitHub]({github_url})")
+        footer_col1, footer_col2 = st.columns(2)
+        with footer_col1:
+            st.markdown(f"Brought to you by **{author}**")
+        with footer_col2:
+            st.image(image_url, width=image_width)
+            st.markdown(f"[LinkedIn]({linkedin_url}) | [GitHub]({github_url})")
