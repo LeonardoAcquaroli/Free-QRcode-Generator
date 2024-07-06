@@ -77,7 +77,7 @@ if st.download_button(label=language_text[language]['download'],
 
 
 # About me
-st.markdown("""
+st.html("""
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,5 +101,4 @@ st.markdown("""
     </footer>
 </body>
 </html>
-""",
-unsafe_allow_html=True)
+""")
