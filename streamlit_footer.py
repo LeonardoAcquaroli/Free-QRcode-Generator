@@ -7,8 +7,8 @@ class PersonalFooter:
                  image_url='https://raw.githubusercontent.com/LeonardoAcquaroli/Free-QRcode-Generator/master/Leo_wood-circlecrop.png',
                  linkedin_url='https://www.linkedin.com/in/leonardo-acquaroli/',
                  github_url='https://github.com/LeonardoAcquaroli',
-                 image_width=10, 
-                 image_height=10 
+                 image_width=70, 
+                 image_height=70 
                  ):
         
         # Divider line
