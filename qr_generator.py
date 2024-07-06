@@ -77,6 +77,8 @@ if st.download_button(label=language_text[language]['download'],
 
 
 # About me
+st.markdown('<hr>', unsafe_allow_html=True) # Divider line
+
 st.html("""
 <!DOCTYPE html>
 <html lang="en">
@@ -90,14 +92,14 @@ st.html("""
     <!-- Footer Section -->
     <footer>
         <div class="footer-content">
-            <h2>Brought to you by Leonardo Acquaroli</h2>
+            <p>Brought to you by Leonardo Acquaroli</p>
             <img src="Leo_wood-circlecrop.png" alt="Leonardo Acquaroli" class="footer-photo">
             <div class="footer-info">
                 <a href="https://www.linkedin.com/in/leonardo-acquaroli/" target="_blank">LinkedIn</a>
                 <a href="https://github.com/LeonardoAcquaroli" target="_blank">GitHub</a>
             </div>
         </div>
-    </footer>
+    </footer>   
 </body>
 </html>
 """)
